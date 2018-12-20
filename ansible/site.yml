@@ -1,0 +1,8 @@
+
+- name: base-docker
+  hosts: "all"
+  become: true
+
+  roles:
+    - role: "nickjj.docker"
+      tags: ["docker"]
