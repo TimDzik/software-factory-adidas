@@ -37,7 +37,7 @@ The end result is to have a fully consistent backuped, HA, harmonized,resilient 
 In order to solve that CI/CD problem we are going to use a full CI/CD stack. In order to not overkill the solution we will implement an easy solution but in this doc design we will describe a full solution. That would require more time and a more complex architecture. 
 
 Here is the ideal CI/CD system (in order to not be messy we've not display the links between the nexus and the different environements).
-![Ideal CI-CD](/Users/tim/Documents/ideal-ci-cd-schema.png) 
+![Ideal CI-CD](images/ideal-ci-cd-schema.png) 
 
 ### Differents components: 
 
@@ -126,7 +126,7 @@ Grafana is a simple tool that you can use to display differents metrics pPrometh
 ### An example of the implemented CI-CD:  
 
 
-![Ideal CI-CD](/Users/tim/Documents/implemented-ci-cd-schema.png) 
+![Ideal CI-CD](images/implemented-ci-cd-schema.png) 
 
 
 
